@@ -1,0 +1,76 @@
+#top{
+	position:fixed;
+	height:35px;
+	padding:3px 0;
+	width:100%;
+	background-color:#DD4814;
+	vertical-align:middle;
+}
+#top-content{
+	width:1000px;
+}
+#top-nav{
+	float:left;
+}
+#top-nav ul{
+	list-style:none;
+}
+#top-nav li{
+	float:left;
+	padding:0px 10px 0px 10px;
+	color:#FFFFFF;
+	width:80px;
+}
+#top-nav li a{
+	padding:8px 0;
+	display:inline-block;
+}
+#top-nav a{
+	color:#FFFFFF;
+}
+#top-nav a:hover{
+	color:#ffcc33;
+}
+#sidebar
+{
+position:fixed;
+left:100px;
+top:120px;
+min-height: 280px;
+min-width: 200px;
+border:2px solid;
+border-radius:15px;
+box-shadow: 6px 6px 5px #888888;
+background-color: #E9DEDE;
+}
+#siderbar-ul
+{
+	list-style-type: none;
+
+}
+
+img
+{
+position:absolute;
+right:15px;
+}
+#content
+{
+	position:absolute;
+	left:320px;
+	top:120px;
+	min-height: 600px;
+	min-width: 650px;
+	border:2px solid;
+	border-radius:15px;
+	box-shadow: 6px 6px 5px #888888;
+	background-color: #F6F6F6;
+	z-index: -1;
+}
+#content-ul
+{
+	list-style-type: none;
+	font-style: italic;
+	font-family: "Georgia";
+	font-size: 30px;
+}
